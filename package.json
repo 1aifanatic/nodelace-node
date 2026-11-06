@@ -1,0 +1,16 @@
+{
+  "name": "nodelace-node-examples",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Runnable Node.js guide and diagram examples for Nodelace 0.3.0",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "examples": "node scripts/render-examples.mjs",
+    "check": "node scripts/render-examples.mjs --check-only --offline",
+    "examples:png": "node scripts/render-examples.mjs --png",
+    "demo": "node examples/api.mjs"
+  },
+  "dependencies": { "nodelace": "0.3.0" },
+  "license": "MIT"
+}
